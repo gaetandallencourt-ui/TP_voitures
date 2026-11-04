@@ -22,7 +22,7 @@ public:
     // Constructeur par défaut (nécessaire pour le tableau dans CVoiture)
     CRoue();
 
-    // Constructeur avec paramètres (SANS liste d'initialisation)
+    // Constructeur avec paramètres
     CRoue(double diametre, std::string garniture, std::string marque, double pression);
 
     // Affichage
