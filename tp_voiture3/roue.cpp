@@ -4,12 +4,12 @@
  * \author Gaëtan Dallencourt
  */
 
-#include "roue.h"   // <-- INDISPENSABLE : sans cette ligne, CRoue n'existe pas
+#include "roue.h"   
 #include <iostream>
 
 using namespace std; // OK uniquement dans un .cpp
 
-// Constructeur par défaut (sans liste d'initialisation)
+// Constructeur par défaut
 CRoue::CRoue()
 {
     m_diametre = 16.0;
